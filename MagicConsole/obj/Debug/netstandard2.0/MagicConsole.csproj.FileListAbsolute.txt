@@ -1,0 +1,8 @@
+C:\Users\mmassari\source\repos\MagicConsole\bin\Debug\netstandard2.0\MagicConsole.deps.json
+C:\Users\mmassari\source\repos\MagicConsole\bin\Debug\netstandard2.0\MagicConsole.dll
+C:\Users\mmassari\source\repos\MagicConsole\bin\Debug\netstandard2.0\MagicConsole.pdb
+C:\Users\mmassari\source\repos\MagicConsole\obj\Debug\netstandard2.0\MagicConsole.AssemblyInfoInputs.cache
+C:\Users\mmassari\source\repos\MagicConsole\obj\Debug\netstandard2.0\MagicConsole.AssemblyInfo.cs
+C:\Users\mmassari\source\repos\MagicConsole\obj\Debug\netstandard2.0\MagicConsole.dll
+C:\Users\mmassari\source\repos\MagicConsole\obj\Debug\netstandard2.0\MagicConsole.pdb
+C:\Users\mmassari\source\repos\MagicConsole\obj\Debug\netstandard2.0\MagicConsole.csprojAssemblyReference.cache

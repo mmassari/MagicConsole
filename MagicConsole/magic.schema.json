@@ -1,0 +1,313 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "JSON Schema for magic.json configuration file for MagicConsole",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": [ "smart", "silent", "interactive" ]
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "foregroundColor": {
+          "type": "string"
+        },
+        "headerTemplate": {
+          "type": "string"
+        },
+        "menuType": {
+          "type": "string",
+          "enum": ["standard", "ui"]
+        },
+        "autoClose": {
+          "type": "boolean"
+        },
+        "header": {
+          "type": "string"
+        },
+        "border": {
+          "type": "boolean"
+        },
+        "help": {
+          "type": "boolean"
+        }
+      }
+    },
+    "commands": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "menu_id": {
+              "type": "integer"
+            },
+            "aliases": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "default": {
+              "type": "boolean"
+            },
+            "validOptions": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "title",
+            "description",
+            "menu_id",
+            "aliases",
+            "default",
+            "valid_options"
+          ]
+        }
+      ]
+    },
+    "options": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "priority": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "default": {
+              "type": "boolean"
+            },
+            "aliases": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "title",
+            "description",
+            "priority",
+            "type",
+            "default",
+            "aliases"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "priority": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "default": {
+              "type": "string"
+            },
+            "aliases": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "title",
+            "description",
+            "priority",
+            "type",
+            "default",
+            "aliases"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "priority": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "default": {
+              "type": "integer"
+            },
+            "aliases": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "title",
+            "description",
+            "priority",
+            "type",
+            "default",
+            "aliases"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "priority": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "valid_items": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "default": {
+              "type": "string"
+            },
+            "aliases": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "title",
+            "description",
+            "priority",
+            "type",
+            "valid_items",
+            "default",
+            "aliases"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "mode",
+    "settings",
+    "commands",
+    "options"
+  ]
+}
+/*
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for my JSON file format",
+
+  "type": "object",
+
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "This shows up in tooltips for the 'name' property."
+    },
+    "versions": {
+      "type": "array",
+      "description": "An array of version numbers.",
+      "minItems": 1,
+      "items": {
+        "type": "number"
+      }
+    }
+  }
+}
+
+*/

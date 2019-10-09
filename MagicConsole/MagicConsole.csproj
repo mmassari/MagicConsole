@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Param\Commands.cs" />
+    <Compile Remove="Param\Options.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Param\Commands.cs" />
+    <None Include="Param\Options.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>

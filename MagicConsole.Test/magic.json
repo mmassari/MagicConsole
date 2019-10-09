@@ -1,0 +1,77 @@
+{
+  "type": "smart",
+  "settings": {
+    "foregroundColor": "green",
+    "headerTemplate": "{title:upper} - Version:{assemblyVersion}\n{description}\n{copyright}\n",
+    "mode": "smart",
+    "autoclose": true,
+    "header": "Program Menu:",
+    "border": true,
+    "help": true
+  },
+  "commands": [
+    {
+      "name": "Import",
+      "title": "Desc",
+      "description": "Desc",
+      "alias": [ "/import", "/i" ],
+      "default": true,
+      "options": [ "Reboot" ]
+    },
+    {
+      "name": "Export",
+      "title": "Desc",
+      "description": "Desc",
+      "alias": [ "/export", "/e" ],
+      "options": [ "Slug", "Attempts" ]
+    },
+    {
+      "name": "Transfer",
+      "title": "Desc",
+      "description": "Desc",
+      "menu_id": 5,
+      "alias": [ "/collect", "/c" ],
+      "options": [ "Type", "Attempts", "Slug", "Reboot" ]
+    }
+  ],
+  "options": [
+    {
+      "name": "Reboot",
+      "title": "Desc",
+      "description": "Desc",
+      "priority": 2,
+      "type": "Flag",
+      "default": false,
+      "alias": [ "-reboot", "-r" ]
+    },
+    {
+      "name": "Slug",
+      "title": "Desc",
+      "description": "Desc",
+      "priority": 3,
+      "type": "String",
+      "default": "",
+      "alias": [ "-slug", "-s" ]
+    },
+    {
+      "name": "Attempts",
+      "title": "Desc",
+      "description": "Desc",
+      "priority": 4,
+      "type": "Number",
+      "default": 3,
+      "alias": [ "-attempts", "-a" ]
+    },
+    {
+      "name": "Type",
+      "title": "Desc",
+      "description": "Desc",
+      "priority": 5,
+      "type": "Enum",
+      "items": [ "short", "long", "extended" ],
+      "default": "short",
+      "alias": [ "-type", "-t" ]
+    }
+
+  ]
+}

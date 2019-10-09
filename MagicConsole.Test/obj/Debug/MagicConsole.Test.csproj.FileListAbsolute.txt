@@ -1,0 +1,14 @@
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\MagicConsole.Test.exe.config
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\MagicConsole.Test.exe
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\MagicConsole.Test.pdb
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\MagicConsole.dll
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\MagicConsole.pdb
+C:\Users\mmassari\source\repos\MagicConsole.Test\obj\Debug\MagicConsole.Test.csprojAssemblyReference.cache
+C:\Users\mmassari\source\repos\MagicConsole.Test\obj\Debug\MagicConsole.Test.csproj.CopyComplete
+C:\Users\mmassari\source\repos\MagicConsole.Test\obj\Debug\MagicConsole.Test.exe
+C:\Users\mmassari\source\repos\MagicConsole.Test\obj\Debug\MagicConsole.Test.pdb
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\magic.json
+C:\Users\mmassari\source\repos\MagicConsole.Test\obj\Debug\MagicConsole.Test.Properties.Resources.resources
+C:\Users\mmassari\source\repos\MagicConsole.Test\obj\Debug\MagicConsole.Test.csproj.GenerateResource.cache
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mmassari\source\repos\MagicConsole.Test\bin\Debug\Newtonsoft.Json.xml
